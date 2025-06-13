@@ -1,8 +1,8 @@
-package dev.cheercode;
+package dev.cheercode.io;
 
 import java.io.IOException;
 
-interface InputReader {
+public interface InputReader {
     String readPath() throws IOException;
 
     int readDepth() throws IOException;

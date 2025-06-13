@@ -1,7 +1,7 @@
-package dev.cheercode;
+package dev.cheercode.validation;
 
 import java.io.IOException;
 
-interface DirectoryValidator {
+public interface DirectoryValidator {
     void validate(String path) throws IOException;
 }

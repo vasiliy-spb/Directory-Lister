@@ -1,4 +1,4 @@
-package dev.cheercode;
+package dev.cheercode.io;
 
 import java.io.BufferedReader;
 import java.io.IOException;

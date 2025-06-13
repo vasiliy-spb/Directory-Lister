@@ -1,8 +1,8 @@
-package dev.cheercode;
+package dev.cheercode.io;
 
 import java.io.IOException;
 
-interface FileListWriter extends AutoCloseable {
+public interface FileListWriter extends AutoCloseable {
     void writeHeader(String path, int depth) throws IOException;
 
     void writeEntry(String entry, int depth) throws IOException;
